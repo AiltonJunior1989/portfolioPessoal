@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal-Ailton Júnior</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="alert-box">
+        <p class="alert-msg">Erro</p>
+    </div>
+
+    <!-- navbar  -->
+    <nav class="navbar">
+        <h1 class="brand">logo</h1>
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="links-container">
+            <li class="link-item"><a href="#" class="link active">home</a></li>
+            <li class="link-item"><a href="#project-section" class="link">projetos</a></li>
+            <li class="link-item"><a href="#about-section" class="link">sobre</a></li>
+            <li class="link-item"><a href="#contact-section" class="link">contatos</a></li>
+        </ul>
+    </nav>
+
+    <!-- home section  -->
+    <section class="home">
+        <div class="hero-content">
+            <h1 class="hero-heading"><span class="highlight">Olá, </span>eu sou ailton júnior</h1>
+            <p class="prefession">web developer</p>
+            <p class="info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea culpa ab tenetur possimus fuga corporis!</p>
+            <a href="#contact-section" class="btn">contato</a>
+        </div>
+        <img src="img/foto1.JPG" alt="" class="image">
+    </section>
+
+    <!-- about section  -->
+    <section class="about" id="about-section">
+        <h2 class="heading">sobre <span class="highlight">mim</span></h2>
+        <p class="sub-heading">Lorem ipsum dolor sit amet consectetur.</p>
+        <div class="separator"></div>
+
+        <div class="about-me-container">
+            <div class="left-col">
+                <img src="img/foto2.JPG" alt="" class="about-image">
+            </div>
+            <div class="right-col">
+                <p class="about-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla hic expedita, id sequi omnis, soluta reprehenderit tenetur sit, ipsum officiis illo totam ratione eligendi accusantium dolor adipisci saepe. Eaque officia eligendi veniam consectetur quidem corrupti alias consequuntur deleniti? Dolor quod ut est itaque quas necessitatibus repellendus perferendis distinctio repudiandae rem harum alias, quidem deleniti ullam expedita reprehenderit accusamus at odio, atque amet tempore. Facilis saepe excepturi quae perspiciatis dolor repellat, dolorem exercitationem libero, id corporis sit in laboriosam aut explicabo quaerat beatae atque. Perspiciatis nemo minus aspernatur facere atque iusto?</p>
+                <a href="#" class="btn">Baixar CV</a>
+            </div>
+        </div>
+
+        <h2 class="heading">Linguagens </h2>
+        <div class="separator"></div>
+        <div class="skill-container">
+            <div class="skill-card" style="--bg: #f06529">
+                <p class="skill">HTML</p>
+            </div>
+            <div class="skill-card" style="--bg: #5ed9fb">
+                <p class="skill">CSS</p>
+            </div>
+            <div class="skill-card" style="--bg: #83cd29">
+                <p class="skill">JavaScript</p>
+            </div>
+            <div class="skill-card" style="--bg: #379ad6">
+                <p class="skill">NodeJS</p>
+            </div>
+            <div class="skill-card large" style="--bg: #cc6699">
+                <p class="skill">Postgres SQL</p>
+            </div>
+            <div class="skill-card large" style="--bg: #f7df1e">
+                <p class="skill">Firebase</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- project section  -->
+    <section class="project" id="project-section">
+        <h2 class="heading">Projeto<span class="highlight">s</span></h2>
+        <p class="sub-heading">Lorem ipsum dolor sit amet consectetur.</p>
+        <div class="separator"></div>
+
+        <div class="filters">
+            <button class="filter-btn active" id="all">todos</button>
+            <button class="filter-btn" id="javascript">javascript</button>
+            <button class="filter-btn" id="ui">ui/ux</button>
+            <button class="filter-btn" id="backend">backend</button>
+            <button class="filter-btn" id="fullstack">fullStack</button>
+        </div>
+
+        <div class="project-container">
+            <!-- <div class="project-card">
+                <img src="img/project (1).png" alt="">
+                <div class="content">
+                    <h1 class="project-name">projeto um</h1>
+                    <span class="tags">JavaScript</span>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- contact section  -->
+    <section class="contact" id="contact-section">
+        <h2 class="heading">Meus <span class="highlight">Contatos</span></h2>
+        <p class="sub-heading">Lorem ipsum dolor sit amet consectetur.</p>
+        <div class="separator"></div>
+
+        <div class="contact-form">
+            <div class="name">
+                <input type="text" class="first-name" required placeholder="primeiro nome">
+                <input type="text" class="last-name" required placeholder="último nome">
+            </div>
+            <input type="email" class="email" required placeholder="email">
+            <textarea class="message" placeholder="mensagem" required></textarea>
+            <button class="btn contact-btn">Enviar</button>
+        </div>
+    </section>
+
+    <footer>Construido com amor por Ailton Júnior</footer>
+
+    <script src="project.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>
